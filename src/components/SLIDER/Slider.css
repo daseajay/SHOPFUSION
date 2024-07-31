@@ -1,0 +1,96 @@
+.slidebg{
+  background-color: #f0e0ff !important;
+}
+
+.sliderhead{
+  margin-left: 5rem;
+}
+
+.smart{
+  font-size: 1.9rem;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.winter{
+  font-size: 6rem;
+  font-weight: 400;
+}
+
+.slider-btn{
+  width: 230px;
+  height: 75px;
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 1px solid;
+  font-size: 22px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.slider-btn:hover{
+  background-color: #b78be0;
+}
+
+@media(max-width:480px){
+  .sliderhead{
+    margin-left: 3rem;
+  }
+  .smart{
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    font-weight: 400;
+  }
+  .winter{
+    font-size: 1.6rem;
+    font-weight: 400;
+  }
+  .slider-btn{
+    width: 150px;
+    height: 45px;
+    margin-top: 5px;
+    font-size: 17px;
+  }
+}
+
+@media (min-width:481px) and (max-width:768px){
+  .sliderhead{
+    margin-left: 3rem;
+  }
+  .smart{
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    font-weight: 400;
+  }
+  .winter{
+    font-size: 1.6rem;
+    font-weight: 400;
+  }
+  .slider-btn{
+    width: 150px;
+    height: 45px;
+    margin-top: 5px;
+    font-size: 17px;
+  }
+}
+
+@media (min-width:1025px) and (max-width:1280px) {
+  .sliderhead{
+    margin-left: 3rem;
+  }
+  .smart{
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    font-weight: 400;
+  }
+  .winter{
+    font-size: 1.6rem;
+    font-weight: 400;
+  }
+  .slider-btn{
+    width: 150px;
+    height: 45px;
+    margin-top: 5px;
+    font-size: 17px;
+  }
+}

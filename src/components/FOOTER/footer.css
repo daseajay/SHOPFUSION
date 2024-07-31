@@ -1,0 +1,11 @@
+.fotvideo{
+  width: 210%;
+  height: auto;
+}
+
+@media(max-width:480px){
+  .fotvideo{
+    width: 220%;
+    height: 20vh;
+  }
+}

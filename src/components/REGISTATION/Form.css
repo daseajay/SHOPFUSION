@@ -1,0 +1,63 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* .fmbg{
+    background-color: rgb(238, 228, 207);
+} */
+
+.fmheader h1{
+  font-size: 2.6rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-shadow: 4px 4px 7px rgba(199, 230, 23, 0.555);
+  color: rgb(128, 197, 38);
+}
+
+.inpulb{
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 10px rgb(240, 184, 184);
+}
+
+.inputst{
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(130, 130, 212);
+}
+
+.form-container{
+  height: 100%;
+}
+
+.errmsg{
+  color: red;
+  font-family: bold;
+  font-size: 20px;
+}
+
+@media (max-width: 480px) {
+  .fmheader h1{
+    font-size: 1.6rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    text-shadow: 4px 4px 7px rgba(199, 230, 23, 0.555);
+    color: rgb(102, 197, 38);
+  } 
+  .inpulb{
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    /* text-shadow: 2px 2px 10px rgb(243, 96, 96); */
+  }
+
+  .errmsg{
+    color: red;
+    font-family: bold;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,13 @@
+.slkimg{
+  width: 30%;
+}
+
+.sld{
+  background-color: rgb(243, 198, 198);
+}
+
+@media(max-width:480px){
+  .slkimg{
+    width: 85%;
+  }
+}

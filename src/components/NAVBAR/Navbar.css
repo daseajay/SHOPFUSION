@@ -1,0 +1,52 @@
+
+.navul li a{
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #555252 !important;
+  display: inline-block;
+}
+
+.navul li a:hover{
+   color: rgb(147, 218, 105) !important;
+}
+
+.icondivs{
+  margin-right: 24px;
+  font-size: 35px;
+  cursor: pointer;
+  position: relative;
+}
+
+.coutspan{
+  position: absolute;
+   bottom: 30px;
+  background-color: #080808;
+  border-radius: 50px;
+  padding:0px 7px 0px 7px;
+  font-size: 18px;
+  color: white;
+}
+
+/* navbar sm div */
+
+.smnav li a{
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #555252;
+  letter-spacing: 1px;
+} 
+
+.smnav li a:hover{
+  color: rgb(201, 175, 219) !important;
+}
+
+@media(max-width:480px){
+  .icondivs{
+    margin-right: 26px;
+    font-size: 45px;
+  }
+  .ico{
+    font-size: 35px;
+  }
+}

@@ -1,0 +1,52 @@
+.dflex{
+  display: flex;
+  align-items: center;
+}
+
+.imgs{
+  width: 50px;
+  height: 60px;
+}
+
+h5{
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+p{
+  color: #666;
+}
+
+.daily::before{
+  content: "-----";
+}
+
+.daily::after{
+  content: "-----";
+}
+
+.heareye{
+  background-color: #a855f7;
+  border-left: 1px solid;
+}
+
+.pos{
+  margin-top: 5px;
+  margin-right: 5px;
+  background-color: #fa6bff;
+  border-radius: 5px;
+  padding: 0px 6px 0px 6px;
+  color: white;
+  font-size: 12px;
+}
+
+.card-img-top{
+  height: 220px;
+}
+
+@media (max-width: 480px) {
+  .card-img-top{
+    height: 150px;
+  }
+}

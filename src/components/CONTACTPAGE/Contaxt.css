@@ -1,0 +1,46 @@
+.ifmap{
+   width: 100%;
+   height: 60vh;
+}
+
+.conheddv{
+  padding: 35px 0px 35px 0px;
+}
+
+.conheddv h1{
+  font-size: 1.6rem;
+  font-weight: 500;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.ifdv{
+  margin-top: 70px;
+}
+
+.iconcont{
+  border: 1px solid;
+  border-radius: 50%;
+  font-size: 2.5rem;
+  padding: 3px;
+}
+
+.iconcont:hover{
+   background-color: #a5b4fc;
+}
+
+@media(max-width:480px){
+  .ifmap{
+    width: 100%;
+    height: 30vh;
+ }
+ .conheddv{
+  padding: 20px 0px 20px 0px;
+}
+.conheddv h1{
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+.ifdv{
+  margin-top: 30px;
+}
+}

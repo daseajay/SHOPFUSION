@@ -1,0 +1,22 @@
+.itmeimg{
+  height: 60vh;
+  width: 70%;
+}
+
+.sprat{
+  background-color: #388E3C;
+  color: white;
+  padding: 0px 8px 0px 8px;
+  border-radius: 3px;
+}
+
+.sppri{
+  margin-right: 10px;
+}
+
+@media(max-width:480px){
+  .itmeimg{
+    height: 30vh;
+    width: 55%;
+  }
+}

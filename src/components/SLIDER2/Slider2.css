@@ -1,0 +1,9 @@
+.slideimg{
+  height: 50vh;
+}
+
+@media (max-width: 480px){
+  .slideimg{
+    height: 21vh;
+  }
+}

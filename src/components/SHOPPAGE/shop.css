@@ -1,0 +1,52 @@
+.shophead{
+  text-align: center;
+  padding: 45px 0px 45px 0px;
+  background-color: #f7f7f7;
+  font-weight: 500;
+}
+
+.btn{
+  font-size: 15px;
+}
+
+.homect{
+  height: 40vh;
+}
+
+.card-text{
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+
+@media(max-width:480px){
+  .homect{
+    height: 20vh;
+  }
+  .card-text{
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+  .ratep{
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .btn{
+    font-size: 16px;
+  }
+}
+
+/* @media(min-width:768px)and(max-width:1024px){
+  .homect{
+    height: 50vh;
+  }
+  .card-text{
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .ratep{
+    font-size: 15px;
+    font-weight: bold;
+  }
+} */
+
